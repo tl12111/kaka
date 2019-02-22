@@ -1,37 +1,39 @@
 {
-  "name": "fnji",
+  "name": "kaka",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --progress --colors --inline",
-    "build": "webpack -p"
+    "start": "tsc && node app.js",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tl12111/kaka.git"
   },
   "author": "",
-  "description": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tl12111/kaka/issues"
+  },
+  "homepage": "https://github.com/tl12111/kaka#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^2.1.0",
+    "ejs": "^2.6.1",
+    "jsx-loader": "^0.13.2",
+    "nodemon": "^1.18.10",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.0",
+    "webpack-dev-server": "^2.9.1"
+  },
   "devDependencies": {
-    "babel": "^6.3.13",
-    "babel-core": "^6.3.21",
-    "babel-loader": "^6.2.0",
-    "babel-plugin-transform-runtime": "^6.3.13",
-    "babel-preset-es2015": "^6.3.13",
-    "babel-runtime": "^5.8.34",
-    "clean-webpack-plugin": "^0.1.10",
-    "copy-webpack-plugin": "^3.0.1",
-    "css-loader": "^0.23.1",
-    "extract-text-webpack-plugin": "^1.0.1",
-    "file-loader": "^0.8.5",
-    "glob": "^7.0.5",
-    "html-loader": "^0.4.3",
-    "html-webpack-plugin": "^2.9.0",
-    "imports-loader": "^0.6.5",
-    "jquery": "^1.12.4",
-    "less": "^2.7.1",
-    "less-loader": "^2.2.3",
-    "style-loader": "^0.13.0",
-    "url-loader": "^0.5.7",
-    "webpack": "^1.12.13",
-    "webpack-dev-server": "^1.14.1"
+    "webpack-cli": "^3.2.1"
   }
 }
